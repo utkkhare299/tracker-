@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  ul li div {
+    padding: 5px;
+    background: #f4f4f4;
+    margin: 5px 0;
+@@ -42,7 +42,7 @@
+    display: block;
+  }
+
+  #my-form input[type='text'], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+@@ -57,6 +57,7 @@
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+   .delete {
+    background-color: crimson;
+    margin-inline: .5rem;
+  }
+  .edit {
+    background-color: green;
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }
+  .align-items{
+    align-items: center;
+  }
